@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table-wrapper-outer{
+ overflow-x: auto;
+ width: 100%;
+}
+.table-wrapper {
+  border: 1px solid #ccc;
+}
+
+.table-row {
+  display: flex;
+  min-width: 600px; /* 5 cols × 120px */
+}
+
+.table-row.header{
+ border-bottom: 1px solid #ccc;
+}
+
+
+.table-cell {
+  flex: 0 0 120px;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+    </style>
+</head>
+<body>
+    <div class="table-wrapper-outer">
+<div class="table-wrapper">
+  <div class="table-row header">
+    <div class="table-cell">Field 1</div>
+    <div class="table-cell">Field 2</div>
+    <div class="table-cell">Field 3</div>
+    <div class="table-cell">Field 4</div>
+ 
+ 
+  </div>
+  <div class="table-row">
+    <div class="table-cell">Data 1</div>
+    <div class="table-cell">Data 2</div>
+    <div class="table-cell">Data 3</div>
+    <div class="table-cell">Data 4</div>
+    
+    
+  </div>
+</div>
+</div>
+</body>
+</html>  
